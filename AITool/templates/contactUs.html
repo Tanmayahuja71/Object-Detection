@@ -1,0 +1,26 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<div class="contactUs-page" >
+    <header class="contactUs-header">
+        <h1>Contact Us</h1>
+        <p>Get in touch with us!</p>
+    </header>
+    <div class="contactUs-container">
+        <form class="contactUs-form" action="{% url 'contactUs' %}" method="get">
+            <h2 class="contactUs-heading" >Contact Form</h2>
+            <label class="contactUs-label" for="name">Your Name:</label>
+            <input class="contactUs-input" type="text" id="name" name="name" required>
+    
+            <label class="contactUs-label" for="email">Your Email:</label>
+            <input class="contactUs-input" type="email" id="email" name="email" required>
+    
+            <label class="contactUs-label" for="message">Your Message:</label>
+            <textarea class="contactUs-textarea" id="message" name="message" rows="4" required></textarea>
+    
+            <button class="contactUs-button" type="submit">Send Message</button>
+        </form>
+    </div>
+
+</div>
+{% endblock %}

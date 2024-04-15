@@ -1,0 +1,51 @@
+.home-page{
+    background-image: url(/static/media/homePage-image.jpeg);
+    background-size: cover;
+    border-image-width: auto;
+    height: 700px;
+    color:blue;
+    font-size:4rem;
+    align-items: flex-start;
+    display: flex;
+    justify-content: left;
+    margin: 4px;
+}
+.feature-body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+    padding:0px
+}
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature-box {
+    background-color:pink;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.feature-h1 {
+    text-align: center;
+    background-color: yellow;
+    color: #333;
+}
+
+.feature-para {
+    margin: 10px 0;
+    color: #555;
+}

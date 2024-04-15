@@ -1,0 +1,53 @@
+<!-- <header>
+    <div class="navbar">
+        <div class="nav-logo border">
+            <div class="logo"></div>
+        </div>
+        <div class="nav-feature  ">
+            <li class="nav-Home border {% if request.path == '/' %} active {% endif %}">
+                <a style="color:white" href="{% url 'home' %}">Home</a>
+            </li>
+            <li class="nav-Services border {% if request.path == '/services/' %} active {% endif %}">
+                <a style="color:white" href="{% url 'services' %}">Services</a>
+            </li>
+            <li class="nav-Feedback border {% if request.path == '/feedback/' %} active {% endif %}">
+                <a style="color:white" href="{% url 'feedback' %}">Feedback</a>
+            </li>
+            <li class="nav-Complain border {% if request.path == '/complain/' %} active {% endif %}">
+                <a style="color:white" href="{% url 'complain' %}">Complain</a>
+            </li>
+            <li class="nav-About border {% if request.path == '/about-us/' %} active {% endif %}">
+                <a style="color:white" href="{% url 'aboutUs' %}">About</a>
+            </li>
+            <li class="nav-Contact border {% if request.path == '/contact-us/' %} active {% endif %}">
+                <a style="color:white" href="{% url 'contactUs' %}">Contact Us</a>
+            </li>
+        </div>
+
+    </div>
+</header> -->
+<header class="header-page">
+    <div class="header-container">
+        <div class="header-logo"></div>
+        <div class="header-features">
+            <li class="header-Home header-border {% if request.path == '/' %} header-active {% endif %}">
+                <a class="header-link" style="color:white" href="{% url 'home' %}">Home</a>
+            </li>
+            <li class="header-Services header-border {% if request.path == '/services/' %} header-active {% endif %}">
+                <a class="header-link" style="color:white" href="{% url 'services' %}">Services</a>
+            </li>
+            <li class="header-Feedback header-border {% if request.path == '/feedback/' %} header-active {% endif %}">
+                <a class="header-link" style="color:white" href="{% url 'feedback' %}">Feedback</a>
+            </li>
+            <li class="header-Complain header-border {% if request.path == '/complain/' %} header-active {% endif %}">
+                <a class="header-link" style="color:white" href="{% url 'complain' %}">Complain</a>
+            </li>
+            <li class="header-About header-border {% if request.path == '/about-us/' %} header-active {% endif %}">
+                <a class="header-link" style="color:white" href="{% url 'aboutUs' %}">About Us</a>
+            </li>
+            <li class="header-Contact header-border {% if request.path == '/contact-us/' %} header-active {% endif %}">
+                <a class="header-link" style="color:white" href="{% url 'contactUs' %}">Contact Us</a>
+            </li>
+        </div>
+    </div>
+</header>

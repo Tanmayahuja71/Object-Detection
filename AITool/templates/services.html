@@ -1,0 +1,34 @@
+{% extends "index.html" %}
+
+{% block content %}
+<services>
+    <div class="service-section">
+        <div class="box1 box">
+            <h4>Object Detection</h4>
+            <div class="box1-img"></div>
+            <p class="services_para">Leveraging your webcam, our system provides real-time object identification, adding an interactive and dynamic dimension to the project for enhanced user engagement.</p>
+            <button class="box-button" type="button">
+                <a href="{% url 'ObjectDetection' %}">Click here!</a>
+            </button>
+
+        </div>
+        <div class="box2 box">
+            <h4>Car Counter</h4>
+            <div class="box2-img"></div>
+            <p class="services_para">Powered by YOLO, our car counter employs real-time detection to dynamically update counts on our web interface, delivering valuable and instant traffic insights.</p>
+            <button class="box-button" type="button">
+                <a href="{% url 'CarCounting' %}">Click here!</a>
+            </button>
+        </div>
+        <div class="box3 box">
+            <h4>People Counter</h4>
+            <div class="box3-img"></div>
+            <p class="services_para">Applying the power of YOLO, our people counter delivers real-time identification and precise counting, providing accurate insights seamlessly integrated into our web interface. people counter.</p>
+            <button class="box-button" type="button">
+                <a href="{% url 'PeopleCounting' %}">Click here!</a>
+            </button>
+        </div>
+
+    </div>
+</services>
+{% endblock %}

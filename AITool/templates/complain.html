@@ -1,0 +1,31 @@
+
+{% extends "index.html" %}
+
+
+{% block content %}
+<div class="complain_container">
+    <div class="complain_page">
+        <h2>Complain Form</h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+    
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname">
+    
+            <label for="email">Email Id:</label>
+            <input type="email" id="email" name="email">
+    
+            <label for="image">Upload Img:</label>
+            <input type="file" id="file" name="image">
+    
+            <label for="complain">Write Complain:</label>
+            <textarea id="complain" name="complain"></textarea>
+    
+            <button type="submit">Submit Complain</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}
+

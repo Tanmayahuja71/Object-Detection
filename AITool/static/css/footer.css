@@ -1,0 +1,43 @@
+.foot-panel1{
+    background-color: #28213b;
+    height:40px;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-panel1{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display:flex;
+    justify-content: space-evenly;
+}
+ul p{
+    font-size:1.5rem;
+}
+ul a{
+    display:block;
+    margin-top: 8px;
+    color:white;
+    font-size:0.85rem;
+}
+ul{
+    margin-top:25px;
+}
+.foot-panel2{
+    background-color: black;
+    color:white;
+    
+    height:80px;
+}
+.pages{
+    padding-top:15px;
+    font-size:0.7rems;
+    text-align: center;
+}
+.copyright{
+    padding-top:5px;
+    text-align: center;
+    font-size:0.7rem;
+}
