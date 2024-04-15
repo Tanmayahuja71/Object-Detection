@@ -21,6 +21,7 @@ The People Counter service is designed to count the number of people in a given 
 ### 3. Car Counter
 Similar to the People Counter, the Car Counter service detects and counts cars in real-time. It's useful for monitoring traffic flow or parking lot occupancy.
 
+### Also the project has feedback page, complaint page and all are working .
 ## Getting Started
 
 To get started with this project, follow these steps:
@@ -38,9 +39,7 @@ Once the project is set up and running, you can use the web interface to access 
 - **People Counter:** Access the designated URL to begin counting the number of people in the given area.
 - **Car Counter:** Similar to the People Counter, navigate to the specified URL to count cars in real-time.
 
-## Feedback
 
-We welcome feedback on this project. If you have any suggestions, bug reports, or feature requests, please visit our [Feedback Page](https://example.com/feedback) to submit your comments.
 
 ## Contributions
 
